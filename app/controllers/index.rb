@@ -7,6 +7,10 @@ get '/euclid' do
   erb :euclid
 end
 
+get '/shunt' do
+  erb :shunt
+end
+
 get '/test' do
   erb :tests
 end
